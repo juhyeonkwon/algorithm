@@ -8,9 +8,6 @@ using namespace std;
 int arr[MAX][MAX];
 bool visited[MAX][MAX] = { false, };
 
-int x[] = { -1, 1, 0, 0 };
-int y[] = { 0, 0, -1, 1 };
-
 int cnt = 0;
 int N;
 
