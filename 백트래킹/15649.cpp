@@ -1,10 +1,13 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int N, M;
 
 int arr[9];
 int visited[9];
+
+vector<int> a;
 
 
 
@@ -25,6 +28,7 @@ void dfs(int count) {
 			visited[i] = false;			
 		}
 	}	
+
 }
 
 int main() {
